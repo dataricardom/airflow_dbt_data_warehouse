@@ -44,3 +44,19 @@ Runtime Error
 [0m14:45:51.516467 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f19f09971a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f19f08f12e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f19f08f1d00>]}
 [0m14:45:51.516778 [debug] [MainThread]: Flushing usage events
 [0m14:45:52.233711 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:46:49.611738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe710f25d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe7117e1340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe71198b3b0>]}
+
+
+============================== 16:46:49.614533 | d8103868-1840-4427-812f-d00e949a3f28 ==============================
+[0m16:46:49.614533 [info ] [MainThread]: Running with dbt=1.10.11
+[0m16:46:49.615047 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'partial_parse': 'True', 'fail_fast': 'False', 'log_format': 'default', 'write_json': 'True', 'target_path': 'None', 'empty': 'False', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt build --exclude resource-type seed', 'log_cache_events': 'False', 'introspect': 'True', 'profiles_dir': '/home/dataricardom/.dbt', 'warn_error': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'indirect_selection': 'eager', 'debug': 'False', 'use_colors': 'True', 'no_print': 'None', 'quiet': 'False', 'cache_selected_only': 'False', 'version_check': 'True'}
+[0m16:46:49.615481 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/dataricardom/Workspace/workshop_airflow_dbt_cosmos/2_data_warehouse/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:46:49.616155 [debug] [MainThread]: Resource report: {"command_name": "build", "command_success": false, "command_wall_clock_time": 0.05092141, "process_in_blocks": "32", "process_kernel_time": 0.064561, "process_mem_max_rss": "99776", "process_out_blocks": "8", "process_user_time": 1.081685}
+[0m16:46:49.616534 [debug] [MainThread]: Command `dbt build` failed at 16:46:49.616464 after 0.05 seconds
+[0m16:46:49.616816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe710f95df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe710bec050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe71179cec0>]}
+[0m16:46:49.617146 [debug] [MainThread]: Flushing usage events
+[0m16:46:50.346776 [debug] [MainThread]: An error was encountered while trying to flush usage events
