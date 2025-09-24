@@ -1,0 +1,30 @@
+[0m23:36:41.070308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1be2789250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1be1d14aa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1be19d6ff0>]}
+
+
+============================== 23:36:41.100395 | 29bf08d6-231f-48a0-9a7e-65596b91b1c2 ==============================
+[0m23:36:41.100395 [info ] [MainThread]: Running with dbt=1.10.11
+[0m23:36:41.100876 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'target_path': 'None', 'quiet': 'False', 'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'empty': 'None', 'invocation_command': 'dbt init', 'introspect': 'True', 'write_json': 'True', 'fail_fast': 'False', 'partial_parse': 'True', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'log_format': 'default', 'warn_error': 'None', 'debug': 'False', 'printer_width': '80', 'profiles_dir': '/home/dataricardom/.dbt', 'no_print': 'None', 'use_experimental_parser': 'False', 'log_path': 'logs', 'static_parser': 'True'}
+[0m23:37:08.975130 [debug] [MainThread]: Starter project path: /home/dataricardom/.cache/pypoetry/virtualenvs/1-local-setup-4NIWAHsR-py3.12/lib/python3.12/site-packages/dbt/include/starter_project
+[0m23:37:08.982410 [info ] [MainThread]: 
+Your new dbt project "dbt_dw" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:37:08.984081 [info ] [MainThread]: Setting up your profile.
+[0m23:40:45.395498 [info ] [MainThread]: Profile dbt_dw written to /home/dataricardom/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:40:45.399820 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 244.37508, "process_in_blocks": "528", "process_kernel_time": 0.161087, "process_mem_max_rss": "123828", "process_out_blocks": "39088", "process_user_time": 2.436414}
+[0m23:40:45.402042 [debug] [MainThread]: Command `dbt init` succeeded at 23:40:45.401723 after 244.38 seconds
+[0m23:40:45.403357 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1be23fa0f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1be23ebf80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1be16cab70>]}
+[0m23:40:45.404440 [debug] [MainThread]: Flushing usage events
+[0m23:40:46.338940 [debug] [MainThread]: An error was encountered while trying to flush usage events
