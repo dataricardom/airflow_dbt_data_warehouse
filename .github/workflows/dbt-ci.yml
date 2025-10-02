@@ -37,7 +37,7 @@ jobs:
                 port: ${{ secrets.RAILWAY_DB_PORT }}
                 dbname: ${{ secrets.RAILWAY_DB_NAME }}
                 schema: public 
-                EOF
+          EOF
 
       - name: dbt deps
         working-directory: dbt_dw
