@@ -84,3 +84,5 @@ models:
   - name: stg_cadastros_2
 
   - name: stg_ricardo
+
+  - name: stg_teste
